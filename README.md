@@ -978,10 +978,9 @@ SOFTWARE.
 
 ## 📞 Contact
 
-- **Project Maintainer**: Your Name - email@example.com
-- **Project Website**: https://github.com/yourusername/drone-monitoring-system
-- **Issue Tracker**: https://github.com/yourusername/drone-monitoring-system/issues
-- **Twitter**: [@your_twitter_handle](https://twitter.com/your_twitter_handle)
+- **Project Maintainer**: Your Name - akhileshzende11@gmail.com
+- **Project Website**: https://github.com/AAKULZ/Rabbit_Cipher
+- **Issue Tracker**: https://github.com/AAKULZ/Rabbit_Cipher/issues
 
 ---
 
