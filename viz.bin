@@ -1,0 +1,327 @@
+Setting key:
+  00 11 22 33 44 55 66 77 
+  88 99 AA BB CC DD EE FF 
+  
+Initial state values:
+  x[0] = 0x99118800
+  x[1] = 0xEE66DD55
+  x[2] = 0xBB33AA22
+  x[3] = 0x8800FF77
+  x[4] = 0xDD55CC44
+  x[5] = 0xAA229911
+  x[6] = 0xFF77EE66
+  x[7] = 0xCC44BB33
+Initial counter values:
+  c[0] = 0xCC44DD55
+  c[1] = 0x9911AA22
+  c[2] = 0xEE66FF77
+  c[3] = 0xBB33CC44
+  c[4] = 0x88009911
+  c[5] = 0xDD55EE66
+  c[6] = 0xAA22BB33
+  c[7] = 0xFF778800
+
+Counter values after update:
+  c[0] = 0x1979B0A2
+  c[1] = 0x6C5EDEF6
+  c[2] = 0x233A4CAC
+  c[3] = 0x08689F92
+  c[4] = 0x5B4DCDE5
+  c[5] = 0x12293B9B
+  c[6] = 0xF7578E81
+  c[7] = 0xD2C4BCD3
+  carry = 1
+G-function outputs:
+  g[0] = 0x00000000
+  g[1] = 0x00000000
+  g[2] = 0x00000000
+  g[3] = 0x00000000
+  g[4] = 0x00000000
+  g[5] = 0x00000000
+  g[6] = 0x00000000
+  g[7] = 0x00000000
+State values after update:
+  x[0] = 0x00000000
+  x[1] = 0x00000000
+  x[2] = 0x00000000
+  x[3] = 0x00000000
+  x[4] = 0x00000000
+  x[5] = 0x00000000
+  x[6] = 0x00000000
+  x[7] = 0x00000000
+
+Counter values after update:
+  c[0] = 0x66AE83F0
+  c[1] = 0x3FAC13C9
+  c[2] = 0x580D99E1
+  c[3] = 0x559D72DF
+  c[4] = 0x2E9B02B8
+  c[5] = 0x46FC88D0
+  c[6] = 0x448C61CE
+  c[7] = 0xA611F1A7
+  carry = 1
+G-function outputs:
+  g[0] = 0x00000000
+  g[1] = 0x00000000
+  g[2] = 0x00000000
+  g[3] = 0x00000000
+  g[4] = 0x00000000
+  g[5] = 0x00000000
+  g[6] = 0x00000000
+  g[7] = 0x00000000
+State values after update:
+  x[0] = 0x00000000
+  x[1] = 0x00000000
+  x[2] = 0x00000000
+  x[3] = 0x00000000
+  x[4] = 0x00000000
+  x[5] = 0x00000000
+  x[6] = 0x00000000
+  x[7] = 0x00000000
+
+Counter values after update:
+  c[0] = 0xB3E3573E
+  c[1] = 0x12F9489C
+  c[2] = 0x8CE0E716
+  c[3] = 0xA2D2462C
+  c[4] = 0x01E8378B
+  c[5] = 0x7BCFD605
+  c[6] = 0x91C1351B
+  c[7] = 0x795F267A
+  carry = 1
+G-function outputs:
+  g[0] = 0x00000000
+  g[1] = 0x00000000
+  g[2] = 0x00000000
+  g[3] = 0x00000000
+  g[4] = 0x00000000
+  g[5] = 0x00000000
+  g[6] = 0x00000000
+  g[7] = 0x00000000
+State values after update:
+  x[0] = 0x00000000
+  x[1] = 0x00000000
+  x[2] = 0x00000000
+  x[3] = 0x00000000
+  x[4] = 0x00000000
+  x[5] = 0x00000000
+  x[6] = 0x00000000
+  x[7] = 0x00000000
+
+Counter values after update:
+  c[0] = 0x01182A8C
+  c[1] = 0xE6467D70
+  c[2] = 0xC1B4344A
+  c[3] = 0xF0071979
+  c[4] = 0xD5356C5E
+  c[5] = 0xB0A32339
+  c[6] = 0xDEF60868
+  c[7] = 0x4CAC5B4D
+  carry = 1
+G-function outputs:
+  g[0] = 0x00000000
+  g[1] = 0x00000000
+  g[2] = 0x00000000
+  g[3] = 0x00000000
+  g[4] = 0x00000000
+  g[5] = 0x00000000
+  g[6] = 0x00000000
+  g[7] = 0x00000000
+State values after update:
+  x[0] = 0x00000000
+  x[1] = 0x00000000
+  x[2] = 0x00000000
+  x[3] = 0x00000000
+  x[4] = 0x00000000
+  x[5] = 0x00000000
+  x[6] = 0x00000000
+  x[7] = 0x00000000
+
+Counter values after reinitialization:
+  c[0] = 0x01182A8C
+  c[1] = 0xE6467D70
+  c[2] = 0xC1B4344A
+  c[3] = 0xF0071979
+  c[4] = 0xD5356C5E
+  c[5] = 0xB0A32339
+  c[6] = 0xDEF60868
+  c[7] = 0x4CAC5B4D
+
+Setting IV:
+  01 23 45 67 89 AB CD EF 
+Counter values after IV setup:
+  c[0] = 0x665D098D
+  c[1] = 0x098B1A35
+  c[2] = 0x2E799FC3
+  c[3] = 0x5B8E3A78
+  c[4] = 0xB2704F5F
+  c[5] = 0x5F6E447C
+  c[6] = 0x313BA3E1
+  c[7] = 0xE725784C
+
+Counter values after update:
+  c[0] = 0xB391DCDA
+  c[1] = 0xDCD84F08
+  c[2] = 0x634CECF7
+  c[3] = 0xA8C30DC5
+  c[4] = 0x85BD8432
+  c[5] = 0x944191B1
+  c[6] = 0x7E70772E
+  c[7] = 0xBA72AD1F
+  carry = 1
+G-function outputs:
+  g[0] = 0x00000000
+  g[1] = 0x00000000
+  g[2] = 0x00000000
+  g[3] = 0x00000000
+  g[4] = 0x00000000
+  g[5] = 0x00000000
+  g[6] = 0x00000000
+  g[7] = 0x00000000
+State values after update:
+  x[0] = 0x00000000
+  x[1] = 0x00000000
+  x[2] = 0x00000000
+  x[3] = 0x00000000
+  x[4] = 0x00000000
+  x[5] = 0x00000000
+  x[6] = 0x00000000
+  x[7] = 0x00000000
+
+Counter values after update:
+  c[0] = 0x00C6B028
+  c[1] = 0xB02583DC
+  c[2] = 0x98203A2C
+  c[3] = 0xF5F7E112
+  c[4] = 0x590AB905
+  c[5] = 0xC914DEE6
+  c[6] = 0xCBA54A7B
+  c[7] = 0x8DBFE1F2
+  carry = 1
+G-function outputs:
+  g[0] = 0x00000000
+  g[1] = 0x00000000
+  g[2] = 0x00000000
+  g[3] = 0x00000000
+  g[4] = 0x00000000
+  g[5] = 0x00000000
+  g[6] = 0x00000000
+  g[7] = 0x00000000
+State values after update:
+  x[0] = 0x00000000
+  x[1] = 0x00000000
+  x[2] = 0x00000000
+  x[3] = 0x00000000
+  x[4] = 0x00000000
+  x[5] = 0x00000000
+  x[6] = 0x00000000
+  x[7] = 0x00000000
+
+Counter values after update:
+  c[0] = 0x4DFB8376
+  c[1] = 0x8372B8AF
+  c[2] = 0xCCF38761
+  c[3] = 0x432CB45F
+  c[4] = 0x2C57EDD9
+  c[5] = 0xFDE82C1B
+  c[6] = 0x18DA1DC8
+  c[7] = 0x610D16C6
+  carry = 1
+G-function outputs:
+  g[0] = 0x00000000
+  g[1] = 0x00000000
+  g[2] = 0x00000000
+  g[3] = 0x00000000
+  g[4] = 0x00000000
+  g[5] = 0x00000000
+  g[6] = 0x00000000
+  g[7] = 0x00000000
+State values after update:
+  x[0] = 0x00000000
+  x[1] = 0x00000000
+  x[2] = 0x00000000
+  x[3] = 0x00000000
+  x[4] = 0x00000000
+  x[5] = 0x00000000
+  x[6] = 0x00000000
+  x[7] = 0x00000000
+
+Counter values after update:
+  c[0] = 0x9B3056C4
+  c[1] = 0x56BFED82
+  c[2] = 0x01C6D496
+  c[3] = 0x906187AD
+  c[4] = 0xFFA522AC
+  c[5] = 0x32BB794F
+  c[6] = 0x660EF116
+  c[7] = 0x345A4B99
+  carry = 1
+G-function outputs:
+  g[0] = 0x00000000
+  g[1] = 0x00000000
+  g[2] = 0x00000000
+  g[3] = 0x00000000
+  g[4] = 0x00000000
+  g[5] = 0x00000000
+  g[6] = 0x00000000
+  g[7] = 0x00000000
+State values after update:
+  x[0] = 0x00000000
+  x[1] = 0x00000000
+  x[2] = 0x00000000
+  x[3] = 0x00000000
+  x[4] = 0x00000000
+  x[5] = 0x00000000
+  x[6] = 0x00000000
+  x[7] = 0x00000000
+
+Input data (12 bytes):
+  54 65 73 74 20 6D 65 73 73 61 67 65 
+Counter values after update:
+  c[0] = 0xE8652A12
+  c[1] = 0x2A0D2255
+  c[2] = 0x369A21CB
+  c[3] = 0xDD965AFA
+  c[4] = 0xD2F2577F
+  c[5] = 0x678EC684
+  c[6] = 0xB343C463
+  c[7] = 0x07A7806C
+  carry = 1
+G-function outputs:
+  g[0] = 0x00000000
+  g[1] = 0x00000000
+  g[2] = 0x00000000
+  g[3] = 0x00000000
+  g[4] = 0x00000000
+  g[5] = 0x00000000
+  g[6] = 0x00000000
+  g[7] = 0x00000000
+State values after update:
+  x[0] = 0x00000000
+  x[1] = 0x00000000
+  x[2] = 0x00000000
+  x[3] = 0x00000000
+  x[4] = 0x00000000
+  x[5] = 0x00000000
+  x[6] = 0x00000000
+  x[7] = 0x00000000
+
+Generated keystream block:
+  00 00 00 00 00 00 00 00 
+  00 00 00 00 00 00 00 00 
+  
+Processed byte 0: 0x54
+Processed byte 1: 0x65
+Processed byte 2: 0x73
+Processed byte 3: 0x74
+Processed byte 4: 0x20
+Processed byte 5: 0x6D
+Processed byte 6: 0x65
+Processed byte 7: 0x73
+Processed byte 8: 0x73
+Processed byte 9: 0x61
+Processed byte 10: 0x67
+Processed byte 11: 0x65
+Output data (12 bytes):
+  54 65 73 74 20 6D 65 73 73 61 67 65 
+
