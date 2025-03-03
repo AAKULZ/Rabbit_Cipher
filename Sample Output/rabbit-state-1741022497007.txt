@@ -1,0 +1,30 @@
+Rabbit Cipher State Snapshot
+Generated: 2025-03-03T17:21:36.658Z
+-------------------------------------
+KEY: 01 2 3 45  67  89 A B CD  EF  FE D C BA  98  76 5 4 32  10
+IV: 12 3 4 56  78  90 A B CD  EF
+COUNTER: f036ef3325e7b000
+
+X-STATE:
+X[0] = 047e6032
+X[1] = ead3b62b
+X[2] = 017e88bd
+X[3] = 776e96dd
+X[4] = 4f0fba71
+X[5] = 17d6445f
+X[6] = 5c876008
+X[7] = ffe45168
+
+CARRY BITS:
+C[0] = 5
+C[1] = 4
+C[2] = 6
+C[3] = 1
+C[4] = c
+C[5] = 4
+C[6] = a
+C[7] = c
+
+KEYSTREAM SAMPLE:
+cebf 53eb eb00 e27c 6e53 7e76 826b 7685
+-------------------------------------

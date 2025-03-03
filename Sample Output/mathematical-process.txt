@@ -1,0 +1,787 @@
+Mathematical Process Visualization
+===============================
+
+Setting key
+-----------
+
+01 23 45 67 89 AB CD EF
+FE DC BA 98 76 54 32 10
+
+Initial state values
+--------------------
+
+x[0] = 0xDC23FE01
+x[1] = 0x32CD54AB
+x[2] = 0x9867BA45
+x[3] = 0xFE0110EF
+x[4] = 0x54AB7689
+x[5] = 0xBA45DC23
+x[6] = 0x10EF32CD
+x[7] = 0x76899867
+
+Initial counter values
+----------------------
+
+c[0] = 0x768954AB
+c[1] = 0xDC23BA45
+c[2] = 0x32CD10EF
+c[3] = 0x98677689
+c[4] = 0xFE01DC23
+c[5] = 0x54AB32CD
+c[6] = 0xBA459867
+c[7] = 0x10EFFE01
+
+Counter values after update
+---------------------------
+
+c[0] = 0xC3BE27F8
+c[1] = 0xAF70EF18
+c[2] = 0x67A05E24
+c[3] = 0xE59C49D6
+c[4] = 0xD14F10F6
+c[5] = 0x897E8002
+c[6] = 0x077A6BB4
+c[7] = 0xE43D32D5
+carry = 0
+temp[0] = 0x9FE225F9, square
+temp[1] = 0xE23E43C3, square
+temp[2] = 0x00081869, square
+temp[3] = 0xE39D5AC5, square
+temp[4] = 0x25FA877F, square
+temp[5] = 0x43C45C25, square
+temp[6] = 0x18699E81, square
+temp[7] = 0x5AC6CB3C, square
+Before g-function calculation: 
+x[0] = 0xDC23FE01, c[0]
+x[1] = 0x32CD54AB, c[1]
+x[2] = 0x9867BA45, c[2]
+x[3] = 0xFE0110EF, c[3]
+x[4] = 0x54AB7689, c[4]
+x[5] = 0xBA45DC23, c[5]
+x[6] = 0x10EF32CD, c[6]
+x[7] = 0x76899867, c[7]
+x[0] = 0x183F0681
+x[1] = 0xA90972D1
+x[2] = 0x3FE80F81
+x[3] = 0xF51F1CF0
+x[4] = 0xF3D9F3EA
+x[5] = 0x01258E4D
+x[6] = 0xAA7EAECD
+x[7] = 0x3EBF656B
+State values after update:
+
+Counter values after update
+---------------------------
+
+c[0] = 0x10F2FB45
+c[1] = 0x82BE23EC
+c[2] = 0x9C73AB59
+c[3] = 0x32D11D23
+c[4] = 0xA49C45CA
+c[5] = 0xBE51CD37
+c[6] = 0x54AF3F01
+c[7] = 0xB78A67A8
+carry = 1
+temp[0] = 0x293201C6, square
+temp[1] = 0x2BC796BD, square
+temp[2] = 0xDC5BBADA, square
+temp[3] = 0x27F03A13, square
+temp[4] = 0x987639B4, square
+temp[5] = 0xBF775B84, square
+temp[6] = 0xFF2DEDCE, square
+temp[7] = 0xF649CD13, square
+Before g-function calculation: 
+x[0] = 0x183F0681, c[0]
+x[1] = 0xA90972D1, c[1]
+x[2] = 0x3FE80F81, c[2]
+x[3] = 0xF51F1CF0, c[3]
+x[4] = 0xF3D9F3EA, c[4]
+x[5] = 0x01258E4D, c[5]
+x[6] = 0xAA7EAECD, c[6]
+x[7] = 0x3EBF656B, c[7]
+x[0] = 0x3642426D
+x[1] = 0x23FCA5DF
+x[2] = 0x8E189F7F
+x[3] = 0xE527DFDF
+x[4] = 0x7E56AD75
+x[5] = 0x9C916B40
+x[6] = 0xB0C3DCD2
+x[7] = 0xA3DF0B58
+State values after update:
+
+Counter values after update
+---------------------------
+
+c[0] = 0x5E27CE93
+c[1] = 0x560B58BF
+c[2] = 0xD146F88E
+c[3] = 0x8005F070
+c[4] = 0x77E97A9D
+c[5] = 0xF3251A6C
+c[6] = 0xA1E4124E
+c[7] = 0x8AD79C7B
+carry = 1
+temp[0] = 0x946A1100, square
+temp[1] = 0x7A07FE9E, square
+temp[2] = 0x5F5F980D, square
+temp[3] = 0x652DD04F, square
+temp[4] = 0xF6402812, square
+temp[5] = 0x8FB685AC, square
+temp[6] = 0x52A7EF20, square
+temp[7] = 0x2EB6A7D3, square
+Before g-function calculation: 
+x[0] = 0x3642426D, c[0]
+x[1] = 0x23FCA5DF, c[1]
+x[2] = 0x8E189F7F, c[2]
+x[3] = 0xE527DFDF, c[3]
+x[4] = 0x7E56AD75, c[4]
+x[5] = 0x9C916B40, c[5]
+x[6] = 0xB0C3DCD2, c[6]
+x[7] = 0xA3DF0B58, c[7]
+x[0] = 0xDBD1FBD4
+x[1] = 0xD228E2F8
+x[2] = 0x41826517
+x[3] = 0x55EBF154
+x[4] = 0x08AE138A
+x[5] = 0xE6A8EA23
+x[6] = 0x7EE741E5
+x[7] = 0xC6476C74
+State values after update:
+
+Counter values after update
+---------------------------
+
+c[0] = 0xAB5CA1E1
+c[1] = 0x29588D92
+c[2] = 0x061A45C3
+c[3] = 0xCD3AC3BE
+c[4] = 0x4B36AF70
+c[5] = 0x27F867A1
+c[6] = 0xEF18E59C
+c[7] = 0x5E24D14E
+carry = 1
+temp[0] = 0x872E9DB5, square
+temp[1] = 0xFB81708A, square
+temp[2] = 0x479CAADA, square
+temp[3] = 0x2326B512, square
+temp[4] = 0x53E4C2FA, square
+temp[5] = 0x0EA151C4, square
+temp[6] = 0x6E002781, square
+temp[7] = 0x246C3DC2, square
+Before g-function calculation: 
+x[0] = 0xDBD1FBD4, c[0]
+x[1] = 0xD228E2F8, c[1]
+x[2] = 0x41826517, c[2]
+x[3] = 0x55EBF154, c[3]
+x[4] = 0x08AE138A, c[4]
+x[5] = 0xE6A8EA23, c[5]
+x[6] = 0x7EE741E5, c[6]
+x[7] = 0xC6476C74, c[7]
+x[0] = 0xFA6C403C
+x[1] = 0xE105DF1E
+x[2] = 0x552C89EC
+x[3] = 0xB75B0DE1
+x[4] = 0xDBCCAC74
+x[5] = 0x3E2C8088
+x[6] = 0x60E3F817
+x[7] = 0x7EDB207C
+State values after update:
+
+Counter values after reinitialization
+-------------------------------------
+
+c[0] = 0x70900D95
+c[1] = 0x17740D1A
+c[2] = 0x66F9BDD4
+c[3] = 0xB3E1E3C2
+c[4] = 0xB15AEF4C
+c[5] = 0xC6FDB8BF
+c[6] = 0xBA346C70
+c[7] = 0xE97FDCAF
+Setting IV:
+12 34 56 78 90 AB CD EF
+
+Counter values after IV setup
+-----------------------------
+
+c[0] = 0x08C63987
+c[1] = 0xF8B9754C
+c[2] = 0x89341644
+c[3] = 0x1871D7D0
+c[4] = 0xC90CDB5E
+c[5] = 0x2930C0E9
+c[6] = 0x55F9C7E0
+c[7] = 0x42EFE8BD
+
+Counter values after update
+---------------------------
+
+c[0] = 0x55FB0CD4
+c[1] = 0xCC06AA1F
+c[2] = 0xBE076379
+c[3] = 0x65A6AB1D
+c[4] = 0x9C5A1031
+c[5] = 0x5E040E1E
+c[6] = 0xA32E9B2D
+c[7] = 0x163D1D90
+carry = 1
+temp[0] = 0x50674D10, square
+temp[1] = 0xAD0C893D, square
+temp[2] = 0x1333ED65, square
+temp[3] = 0x1D01B8FE, square
+temp[4] = 0x7826BCA5, square
+temp[5] = 0x9C308EA6, square
+temp[6] = 0x04129344, square
+temp[7] = 0x95183E0C, square
+Before g-function calculation: 
+x[0] = 0xFA6C403C, c[0]
+x[1] = 0xE105DF1E, c[1]
+x[2] = 0x552C89EC, c[2]
+x[3] = 0xB75B0DE1, c[3]
+x[4] = 0xDBCCAC74, c[4]
+x[5] = 0x3E2C8088, c[5]
+x[6] = 0x60E3F817, c[6]
+x[7] = 0x7EDB207C, c[7]
+x[0] = 0xAD4B42CC
+x[1] = 0x3F696DA8
+x[2] = 0x347C8721
+x[3] = 0x812D46E9
+x[4] = 0x199F86E3
+x[5] = 0x5E70129F
+x[6] = 0x63FA0674
+x[7] = 0x9A5471F3
+State values after update:
+
+Counter values after update
+---------------------------
+
+c[0] = 0xA32FE022
+c[1] = 0x9F53DEF2
+c[2] = 0xF2DAB0AE
+c[3] = 0xB2DB7E6A
+c[4] = 0x6FA74504
+c[5] = 0x92D75B53
+c[6] = 0xF0636E7A
+c[7] = 0xE98A5263
+carry = 0
+temp[0] = 0x507B22EE, square
+temp[1] = 0xDEBD4C9A, square
+temp[2] = 0x275737CF, square
+temp[3] = 0x3408C553, square
+temp[4] = 0x8946CBE7, square
+temp[5] = 0xF1476DF2, square
+temp[6] = 0x545D74EE, square
+temp[7] = 0x83DEC456, square
+Before g-function calculation: 
+x[0] = 0xAD4B42CC, c[0]
+x[1] = 0x3F696DA8, c[1]
+x[2] = 0x347C8721, c[2]
+x[3] = 0x812D46E9, c[3]
+x[4] = 0x199F86E3, c[4]
+x[5] = 0x5E70129F, c[5]
+x[6] = 0x63FA0674, c[6]
+x[7] = 0x9A5471F3, c[7]
+x[0] = 0xBA00C23A
+x[1] = 0x1CFDCDEA
+x[2] = 0x3F940191
+x[3] = 0x1288321A
+x[4] = 0x9D99AE52
+x[5] = 0xFCE350F5
+x[6] = 0x9D6552D2
+x[7] = 0x22667899
+State values after update:
+
+Counter values after update
+---------------------------
+
+c[0] = 0xF064B36F
+c[1] = 0x72A113C5
+c[2] = 0x27ADFDE3
+c[3] = 0x001051B8
+c[4] = 0x42F479D8
+c[5] = 0xC7AAA888
+c[6] = 0x3D9841C7
+c[7] = 0xBCD78737
+carry = 1
+temp[0] = 0xAA6575A9, square
+temp[1] = 0x8F9EE1AF, square
+temp[2] = 0x6741FF74, square
+temp[3] = 0x129883D2, square
+temp[4] = 0xE08E282A, square
+temp[5] = 0xC48DF97D, square
+temp[6] = 0xDAFD9499, square
+temp[7] = 0xDF3DFFD0, square
+Before g-function calculation: 
+x[0] = 0xBA00C23A, c[0]
+x[1] = 0x1CFDCDEA, c[1]
+x[2] = 0x3F940191, c[2]
+x[3] = 0x1288321A, c[3]
+x[4] = 0x9D99AE52, c[4]
+x[5] = 0xFCE350F5, c[5]
+x[6] = 0x9D6552D2, c[6]
+x[7] = 0x22667899, c[7]
+x[0] = 0xAAE9A857
+x[1] = 0x1DDAFEBD
+x[2] = 0x1F7FDC75
+x[3] = 0x56E54F65
+x[4] = 0x8541AE6D
+x[5] = 0x288D07BF
+x[6] = 0x23AC278D
+x[7] = 0x424C2198
+State values after update:
+
+Counter values after update
+---------------------------
+
+c[0] = 0x3D9986BD
+c[1] = 0x45EE4899
+c[2] = 0x5C814B18
+c[3] = 0x4D452505
+c[4] = 0x1641AEAB
+c[5] = 0xFC7DF5BD
+c[6] = 0x8ACD1514
+c[7] = 0x9024BC0A
+carry = 1
+temp[0] = 0xE8832F14, square
+temp[1] = 0x63C94756, square
+temp[2] = 0x7C01278D, square
+temp[3] = 0xA42A746A, square
+temp[4] = 0x9B835D18, square
+temp[5] = 0x250AFD7C, square
+temp[6] = 0xAE793CA1, square
+temp[7] = 0xD270DDA2, square
+Before g-function calculation: 
+x[0] = 0xAAE9A857, c[0]
+x[1] = 0x1DDAFEBD, c[1]
+x[2] = 0x1F7FDC75, c[2]
+x[3] = 0x56E54F65, c[3]
+x[4] = 0x8541AE6D, c[4]
+x[5] = 0x288D07BF, c[5]
+x[6] = 0x23AC278D, c[6]
+x[7] = 0x424C2198, c[7]
+x[0] = 0xC68776DD
+x[1] = 0xA1B70111
+x[2] = 0xBDCEBC0F
+x[3] = 0x4065EC30
+x[4] = 0xDBE15488
+x[5] = 0x171534AA
+x[6] = 0xEA76A698
+x[7] = 0xE42955DE
+State values after update:
+Input data (134 bytes):
+49 D0 DC 1E F9 6A 1E C0 40 44 11 F3 7A 16 66 FA
+0F C0 7E C0 7F 0F 5D C2 F3 C9 5D CC 51 A9 E9 E3 ...
+
+Counter values after update
+---------------------------
+
+c[0] = 0x8ACE5A0B
+c[1] = 0x193B7D6C
+c[2] = 0x9154984D
+c[3] = 0x9A79F852
+c[4] = 0xE98EE37E
+c[5] = 0x315142F1
+c[6] = 0xD801E862
+c[7] = 0x6371F0DD
+carry = 1
+temp[0] = 0x5155D0E8, square
+temp[1] = 0xBAF27E7D, square
+temp[2] = 0x4F23545C, square
+temp[3] = 0xDADFE482, square
+temp[4] = 0xC5703806, square
+temp[5] = 0x4866779B, square
+temp[6] = 0xC2788EFA, square
+temp[7] = 0x479B46BB, square
+Before g-function calculation: 
+x[0] = 0xC68776DD, c[0]
+x[1] = 0xA1B70111, c[1]
+x[2] = 0xBDCEBC0F, c[2]
+x[3] = 0x4065EC30, c[3]
+x[4] = 0xDBE15488, c[4]
+x[5] = 0x171534AA, c[5]
+x[6] = 0xEA76A698, c[6]
+x[7] = 0xE42955DE, c[7]
+x[0] = 0x9EAFF232
+x[1] = 0x550A77A8
+x[2] = 0xB1C20F94
+x[3] = 0x05FBB46D
+x[4] = 0xF0A22921
+x[5] = 0x5FB5D161
+x[6] = 0xD4633640
+x[7] = 0x8BD5CD57
+State values after update:
+Generated keystream block:
+32 F2 A8 77 94 0F 6D B4
+21 29 61 D1 40 36 57 CD
+Processed byte 0: 0x7B
+Processed byte 1: 0x22
+Processed byte 2: 0x74
+Processed byte 3: 0x69
+Processed byte 4: 0x6D
+Processed byte 5: 0x65
+Processed byte 6: 0x73
+Processed byte 7: 0x74
+Processed byte 8: 0x61
+Processed byte 9: 0x6D
+Processed byte 10: 0x70
+Processed byte 11: 0x22
+Processed byte 12: 0x3A
+Processed byte 13: 0x20
+Processed byte 14: 0x31
+Processed byte 15: 0x37
+
+Counter values after update
+---------------------------
+
+c[0] = 0xD8032D59
+c[1] = 0xEC88B23F
+c[2] = 0xC627E581
+c[3] = 0xE7AECB9F
+c[4] = 0xBCDC1851
+c[5] = 0x66249026
+c[6] = 0x2536BBAF
+c[7] = 0x36BF25B1
+carry = 1
+temp[0] = 0x76B31F8B, square
+temp[1] = 0x419329E7, square
+temp[2] = 0x77E9F515, square
+temp[3] = 0xEDAA800C, square
+temp[4] = 0xAD7E4172, square
+temp[5] = 0xC5DA6187, square
+temp[6] = 0xF999F1EF, square
+temp[7] = 0xC294F308, square
+Before g-function calculation: 
+x[0] = 0x9EAFF232, c[0]
+x[1] = 0x550A77A8, c[1]
+x[2] = 0xB1C20F94, c[2]
+x[3] = 0x05FBB46D, c[3]
+x[4] = 0xF0A22921, c[4]
+x[5] = 0x5FB5D161, c[5]
+x[6] = 0xD4633640, c[6]
+x[7] = 0x8BD5CD57, c[7]
+x[0] = 0xA2A7F03B
+x[1] = 0x4672F946
+x[2] = 0xD5923C46
+x[3] = 0xB0A6F46D
+x[4] = 0x6BA5F8C5
+x[5] = 0x5A47E06E
+x[6] = 0x26DF8B71
+x[7] = 0x3F208088
+State values after update:
+Generated keystream block:
+3B F0 46 F9 46 3C 6D F4
+C5 F8 6E E0 71 8B 88 80
+Processed byte 16: 0x34
+Processed byte 17: 0x30
+Processed byte 18: 0x38
+Processed byte 19: 0x39
+Processed byte 20: 0x39
+Processed byte 21: 0x33
+Processed byte 22: 0x30
+Processed byte 23: 0x36
+Processed byte 24: 0x36
+Processed byte 25: 0x31
+Processed byte 26: 0x33
+Processed byte 27: 0x2C
+Processed byte 28: 0x20
+Processed byte 29: 0x22
+Processed byte 30: 0x61
+Processed byte 31: 0x63
+
+Counter values after update
+---------------------------
+
+c[0] = 0x253800A7
+c[1] = 0xBFD5E713
+c[2] = 0xFAFB32B6
+c[3] = 0x34E39EEC
+c[4] = 0x90294D25
+c[5] = 0x9AF7DD5B
+c[6] = 0x726B8EFC
+c[7] = 0x0A0C5A84
+carry = 1
+temp[0] = 0xC7DFF0E2, square
+temp[1] = 0x0648E059, square
+temp[2] = 0xD08D6EFC, square
+temp[3] = 0xE58A9359, square
+temp[4] = 0xFBCF45EA, square
+temp[5] = 0xF53FBDC9, square
+temp[6] = 0x994B1A6D, square
+temp[7] = 0x492CDB0C, square
+Before g-function calculation: 
+x[0] = 0xA2A7F03B, c[0]
+x[1] = 0x4672F946, c[1]
+x[2] = 0xD5923C46, c[2]
+x[3] = 0xB0A6F46D, c[3]
+x[4] = 0x6BA5F8C5, c[4]
+x[5] = 0x5A47E06E, c[5]
+x[6] = 0x26DF8B71, c[6]
+x[7] = 0x3F208088, c[7]
+x[0] = 0x12B9CA99
+x[1] = 0x575F967E
+x[2] = 0x65E64161
+x[3] = 0x1D49705B
+x[4] = 0x14F1E273
+x[5] = 0x2048E749
+x[6] = 0xED50D77D
+x[7] = 0x634482DB
+State values after update:
+Generated keystream block:
+99 CA 7E 96 61 41 5B 70
+73 E2 49 E7 7D D7 DB 82
+
+Counter values after update
+---------------------------
+
+c[0] = 0x726CD3F5
+c[1] = 0x93231BE6
+c[2] = 0x2FCE7FEB
+c[3] = 0x8218723A
+c[4] = 0x637681F8
+c[5] = 0xCFCB2A90
+c[6] = 0xBFA06249
+c[7] = 0xDD598F57
+carry = 0
+temp[0] = 0x85269E8E, square
+temp[1] = 0xEA82B264, square
+temp[2] = 0x95B4C14C, square
+temp[3] = 0x9F61E295, square
+temp[4] = 0x7868646B, square
+temp[5] = 0xF01411D9, square
+temp[6] = 0xACF139C6, square
+temp[7] = 0x409E1232, square
+Before g-function calculation: 
+x[0] = 0x12B9CA99, c[0]
+x[1] = 0x575F967E, c[1]
+x[2] = 0x65E64161, c[2]
+x[3] = 0x1D49705B, c[3]
+x[4] = 0x14F1E273, c[4]
+x[5] = 0x2048E749, c[5]
+x[6] = 0xED50D77D, c[6]
+x[7] = 0x634482DB, c[7]
+x[0] = 0x8E5DAEA3
+x[1] = 0x3108DA84
+x[2] = 0x43783A58
+x[3] = 0xF7A210AE
+x[4] = 0x538047B6
+x[5] = 0x2C1F1089
+x[6] = 0x8E084EBF
+x[7] = 0xB21D7206
+State values after update:
+Generated keystream block:
+A3 AE 84 DA 58 3A AE 10
+B6 47 89 10 BF 4E 06 72
+
+Counter values after update
+---------------------------
+
+c[0] = 0xBFA1A742
+c[1] = 0x667050B9
+c[2] = 0x64A1CD20
+c[3] = 0xCF4D4587
+c[4] = 0x36C3B6CB
+c[5] = 0x049E77C5
+c[6] = 0x0CD53597
+c[7] = 0xB0A6C42B
+carry = 1
+temp[0] = 0x4DFF55E5, square
+temp[1] = 0x97792B3D, square
+temp[2] = 0xA81A0778, square
+temp[3] = 0xC6EF5635, square
+temp[4] = 0x8A43FE81, square
+temp[5] = 0x30BD884E, square
+temp[6] = 0x9ADD8456, square
+temp[7] = 0x62C43631, square
+Before g-function calculation: 
+x[0] = 0x8E5DAEA3, c[0]
+x[1] = 0x3108DA84, c[1]
+x[2] = 0x43783A58, c[2]
+x[3] = 0xF7A210AE, c[3]
+x[4] = 0x538047B6, c[4]
+x[5] = 0x2C1F1089, c[5]
+x[6] = 0x8E084EBF, c[6]
+x[7] = 0xB21D7206, c[7]
+x[0] = 0xF3475873
+x[1] = 0xF638B03D
+x[2] = 0x5857544E
+x[3] = 0x10A69A21
+x[4] = 0xA6405DD2
+x[5] = 0x7FC19B92
+x[6] = 0x2B6A5321
+x[7] = 0xBB21E491
+State values after update:
+Generated keystream block:
+73 58 3D B0 4E 54 21 9A
+D2 5D 92 9B 21 53 91 E4
+
+Counter values after update
+---------------------------
+
+c[0] = 0x0CD67A90
+c[1] = 0x39BD858D
+c[2] = 0x99751A55
+c[3] = 0x1C8218D4
+c[4] = 0x0A10EB9F
+c[5] = 0x3971C4FA
+c[6] = 0x5A0A08E4
+c[7] = 0x83F3F8FE
+carry = 1
+temp[0] = 0x001DD303, square
+temp[1] = 0x2FF635CA, square
+temp[2] = 0xF1CC6EA3, square
+temp[3] = 0x2D28B2F5, square
+temp[4] = 0xB0514971, square
+temp[5] = 0xB933608C, square
+temp[6] = 0x85745C05, square
+temp[7] = 0x3F15DD8F, square
+Before g-function calculation: 
+x[0] = 0xF3475873, c[0]
+x[1] = 0xF638B03D, c[1]
+x[2] = 0x5857544E, c[2]
+x[3] = 0x10A69A21, c[3]
+x[4] = 0xA6405DD2, c[4]
+x[5] = 0x7FC19B92, c[5]
+x[6] = 0x2B6A5321, c[6]
+x[7] = 0xBB21E491, c[7]
+x[0] = 0xF2415836
+x[1] = 0xB0287976
+x[2] = 0x975B0C5A
+x[3] = 0x26C82997
+x[4] = 0x535E9783
+x[5] = 0xFAA5FDFB
+x[6] = 0x767E8E5F
+x[7] = 0xF00C9246
+State values after update:
+Generated keystream block:
+36 58 76 79 5A 0C 97 29
+83 97 FB FD 5F 8E 46 92
+
+Counter values after update
+---------------------------
+
+c[0] = 0x5A0B4DDE
+c[1] = 0x0D0ABA60
+c[2] = 0xCE48678A
+c[3] = 0x69B6EC21
+c[4] = 0xDD5E2072
+c[5] = 0x6E45122E
+c[6] = 0xA73EDC31
+c[7] = 0x57412DD1
+carry = 1
+temp[0] = 0x4C4CA614, square
+temp[1] = 0xBD3333D6, square
+temp[2] = 0x65A373E4, square
+temp[3] = 0x907F15B8, square
+temp[4] = 0x30BCB7F5, square
+temp[5] = 0x68EB1029, square
+temp[6] = 0x1DBD6A90, square
+temp[7] = 0x474DC017, square
+Before g-function calculation: 
+x[0] = 0xF2415836, c[0]
+x[1] = 0xB0287976, c[1]
+x[2] = 0x975B0C5A, c[2]
+x[3] = 0x26C82997, c[3]
+x[4] = 0x535E9783, c[4]
+x[5] = 0xFAA5FDFB, c[5]
+x[6] = 0x767E8E5F, c[6]
+x[7] = 0xF00C9246, c[7]
+x[0] = 0x92A45BD1
+x[1] = 0x12A32B4C
+x[2] = 0x52D6DA14
+x[3] = 0x9AC1B480
+x[4] = 0xE3F3D8DF
+x[5] = 0x05FDD9C8
+x[6] = 0x7A5A5B4E
+x[7] = 0x32C0F7C5
+State values after update:
+Generated keystream block:
+D1 5B 4C 2B 14 DA 80 B4
+DF D8 C8 D9 4E 5B C5 F7
+
+Counter values after update
+---------------------------
+
+c[0] = 0xA740212C
+c[1] = 0xE057EF33
+c[2] = 0x031BB4BE
+c[3] = 0xB6EBBF6F
+c[4] = 0xB0AB5545
+c[5] = 0xA3185F63
+c[6] = 0xF473AF7E
+c[7] = 0x2A8E62A4
+carry = 1
+temp[0] = 0x39E47CFD, square
+temp[1] = 0xF2FB1A7F, square
+temp[2] = 0x55F28ED2, square
+temp[3] = 0x51AD73EF, square
+temp[4] = 0x949F2E24, square
+temp[5] = 0xA916392B, square
+temp[6] = 0x6ECE0ACC, square
+temp[7] = 0x5D4F5A69, square
+Before g-function calculation: 
+x[0] = 0x92A45BD1, c[0]
+x[1] = 0x12A32B4C, c[1]
+x[2] = 0x52D6DA14, c[2]
+x[3] = 0x9AC1B480, c[3]
+x[4] = 0xE3F3D8DF, c[4]
+x[5] = 0x05FDD9C8, c[5]
+x[6] = 0x7A5A5B4E, c[6]
+x[7] = 0x32C0F7C5, c[7]
+x[0] = 0xE99E4D88
+x[1] = 0xC3AA9D40
+x[2] = 0x2D72D6FD
+x[3] = 0x9E3E4EFA
+x[4] = 0xADF0933B
+x[5] = 0x439559C2
+x[6] = 0x98C69E52
+x[7] = 0x0F654048
+State values after update:
+Generated keystream block:
+88 4D 40 9D FD D6 FA 4E
+3B 93 C2 59 52 9E 48 40
+
+Counter values after update
+---------------------------
+
+c[0] = 0xF474F47A
+c[1] = 0xB3A52406
+c[2] = 0x37EF01F3
+c[3] = 0x042092BC
+c[4] = 0x83F88A19
+c[5] = 0xD7EBAC98
+c[6] = 0x41A882CB
+c[7] = 0xFDDB9778
+carry = 0
+temp[0] = 0xDE134202, square
+temp[1] = 0x774FC146, square
+temp[2] = 0x6561D8F0, square
+temp[3] = 0xA25EE1B6, square
+temp[4] = 0x31E91D54, square
+temp[5] = 0x1B81065A, square
+temp[6] = 0xDA6F211D, square
+temp[7] = 0x0D40D7C0, square
+Before g-function calculation: 
+x[0] = 0xE99E4D88, c[0]
+x[1] = 0xC3AA9D40, c[1]
+x[2] = 0x2D72D6FD, c[2]
+x[3] = 0x9E3E4EFA, c[3]
+x[4] = 0xADF0933B, c[4]
+x[5] = 0x439559C2, c[5]
+x[6] = 0x98C69E52, c[6]
+x[7] = 0x0F654048, c[7]
+x[0] = 0x56352A74
+x[1] = 0xE271428E
+x[2] = 0x67222A0C
+x[3] = 0xF2968AA8
+x[4] = 0x99430DF8
+x[5] = 0xE5AF9631
+x[6] = 0x0719F211
+x[7] = 0x84ADD0F5
+State values after update:
+Generated keystream block:
+74 2A 8E 42 0C 2A A8 8A
+F8 0D 31 96 11 F2 F5 D0
+Output data (134 bytes):
+7B 22 74 69 6D 65 73 74 61 6D 70 22 3A 20 31 37
+34 30 38 39 39 33 30 36 36 31 33 2C 20 22 61 63 ...
+
